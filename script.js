@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Show zoom elements on mouse enter
   carouselMainImg.addEventListener('mouseenter', () => {
     // Only show on larger screens where the result box has room
-    if (window.innerWidth > 900) {
+    if (true) {
       syncZoomBackground();
       zoomLens.style.display   = 'block';
       zoomResult.style.display = 'block';
